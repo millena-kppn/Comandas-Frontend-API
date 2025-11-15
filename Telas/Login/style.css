@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    background: linear-gradient(to right, rgb(87, 58, 232) 10%, rgb(34, 159, 120) 90%);
+    width: 420px;
+    text-align: center;
+    margin: 8px;
+    padding: 90px;
+    border-radius: 3px 80px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#conteudo > label{
+ text-align: left;
+}
+input{
+    padding: 10px;
+}
+button{
+    margin: auto;
+    padding: 10px;
+    width: 90px;
+    margin-top: 30px;
+}
